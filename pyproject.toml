@@ -1,0 +1,17 @@
+[project]
+name = "supplier-intake"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Yassin Hassan", email = "162758084+yassin-hassan@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+supplier-intake = "supplier_intake:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
